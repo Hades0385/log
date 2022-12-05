@@ -1202,7 +1202,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #373c32;
+  background: #001730;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2705,7 +2705,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("https://iw233.cn/api.php?sort=pc");
+  background: url("https://tuapi.eees.cc/api.php?category=dongman&type=302");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

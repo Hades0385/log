@@ -389,10 +389,8 @@
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/log/tags/">
-          
         <span class="site-state-item-count">7</span>
-        <span class="site-state-item-name">標籤</span></a>
+        <span class="site-state-item-name">標籤</span>
       </div>
   </nav>
 </div>
@@ -452,7 +450,7 @@
 
   
   <script src="/log/lib/anime.min.js"></script>
-  <script src="ture"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/log/lib/velocity/velocity.min.js"></script>
@@ -558,5 +556,24 @@ window.addEventListener('pjax:success', () => {
     </div>
   <!-- 繪製多邊形 -->
 <script type="text/javascript" src="/js/mouse.js"></script>
+<!-- 引用依賴 -->
+<link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+
+<!-- 我使用的APlayer本體 -->
+<div class="aplayer" 
+  data-id="2196947449" 
+  data-server="netease" 
+  data-type="playlist" 
+  data-fixed="true" 
+  data-autoplay="true" 
+  data-order="random" 
+  data-volume="0.55" 
+  data-theme="#cc543a" 
+  data-preload="auto" >
+  </div>
+
 </body>
 </html>
